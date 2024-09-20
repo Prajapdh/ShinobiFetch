@@ -1,0 +1,31 @@
+{
+  "name": "shinobifetch",
+  "version": "1.0.0",
+  "description": "A Node.js scraper that fetches and stores Naruto anime data (characters, clans, jutsu, and episodes) in MongoDB.",
+  "main": "seed.js",
+  "scripts": {
+    "dev": "node --experimental-modules seed.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "he": "^1.2.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^7.3.1",
+    "node-fetch": "^3.3.1",
+    "node-html-parser": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prajapdh/ShinobiFetch.git"
+  },
+  "author": "Daksh Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prajapdh/ShinobiFetch/issues"
+  },
+  "homepage": "https://github.com/Prajapdh/ShinobiFetch#readme"
+}
